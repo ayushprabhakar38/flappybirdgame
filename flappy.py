@@ -180,7 +180,7 @@ if __name__ == "__main__":
    
     pygame.init() 
     FPSCLOCK = pygame.time.Clock()
-    pygame.display.set_caption('Flappy Bird by CodeWithHarry')
+    pygame.display.set_caption('Flappy Bird by Ayush Prabhakar')
     GAME_SPRITES['numbers'] = ( 
         pygame.image.load('gallery/sprites/0.png').convert_alpha(),
         pygame.image.load('gallery/sprites/1.png').convert_alpha(),
@@ -213,4 +213,5 @@ if __name__ == "__main__":
     while True:
         welcomeScreen()
         mainGame() 
+
 
